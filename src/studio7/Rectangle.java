@@ -25,11 +25,16 @@ public class Rectangle {
 		
 	}
 	
-	
-
+	public int getl() {
+		return length;
+	}
+	public int getw() {
+		return width;
+	}
 	public static void main(String[] args) {
+		Rectangle p1= new Rectangle(4, 3);
+		System.out.println(p1.Perimeter());
 		// TODO Auto-generated method stub
-
 	}
 
 }
